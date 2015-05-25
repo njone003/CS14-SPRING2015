@@ -1,0 +1,30 @@
+TREES
+
+Advantages:
+
+1) The tree is self-balancing and doesn't require extra work to keep it "under 
+   control."
+
+Disadvantages:
+
+1) It is slower to insert an item into a tree than into a hash table.
+
+2) It is slower to look up and find an item in a tree than in a hash table.
+
+
+HASH TABLES
+
+Advantages:
+
+1) It is faster to insert an item into a hash table than into a tree.
+
+2) It is faster to look up and find an item in a hash table than in a tree.
+
+Disadvantages:
+
+1) Effective hash trees are more difficult to implement than effective 
+   self-balancing trees.
+   
+   
+* In order to compare hash tables and trees in more depth, we could measure
+actions such as swapping and deleting items. *
